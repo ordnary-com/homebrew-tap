@@ -2,24 +2,24 @@
 class Brim < Formula
   desc "Brim, the Ordnary programming language"
   homepage "https://ordnary-com.github.io/brim/"
-  version "0.1.1"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ordnary-com/brim/releases/download/v0.1.1/brim-0.1.1-macos-aarch64-native.tar.gz"
-      sha256 "4d6dcfaee1bfdca0f3b5bb064325c6c3758992f191ff53667cc40d326d3e2cc2"
+      url "https://github.com/ordnary-com/brim/releases/download/v0.2.0/brim-0.2.0-macos-aarch64-native.tar.gz"
+      sha256 "11af516234deca901a32ebf0e76d6b94428e664965e90490b46fe00c5bc0398d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ordnary-com/brim/releases/download/v0.1.1/brim-0.1.1-linux-x86_64-native.tar.gz"
-      sha256 "f42415b0f3546edac8d314a18f397686f2c8e677915ae539332f0a2dcb59841a"
+      url "https://github.com/ordnary-com/brim/releases/download/v0.2.0/brim-0.2.0-linux-x86_64-native.tar.gz"
+      sha256 "dfff5e0eb9850b9b1b708711e195c5491efc848448e3bdbe29b984e8da3f7de5"
     end
     on_arm do
-      url "https://github.com/ordnary-com/brim/releases/download/v0.1.1/brim-0.1.1-linux-aarch64.tar.gz"
-      sha256 "b35b6fd0e8410c43adba32bb838858bfd3317088e3bcab337851eb48a30ac5f6"
+      url "https://github.com/ordnary-com/brim/releases/download/v0.2.0/brim-0.2.0-linux-aarch64.tar.gz"
+      sha256 "66967ccdea61d8591196cdfc641167aea866b23c3ca45697d0b4e2b414942ae8"
     end
   end
 
